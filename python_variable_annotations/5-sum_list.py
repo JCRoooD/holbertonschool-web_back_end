@@ -1,5 +1,5 @@
 #!/bin/usr/env python3
-"""basic annotations - sum_list"""
+"""basic annotations - sum_list module"""
 from typing import List
 
 
