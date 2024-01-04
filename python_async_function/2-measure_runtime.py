@@ -1,4 +1,4 @@
-#!/usr/bim/env python3
+#!/usr/bin/env python3
 """measure the runtime"""
 import asyncio
 from typing import List
