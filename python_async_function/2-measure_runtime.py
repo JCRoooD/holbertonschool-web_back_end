@@ -5,8 +5,9 @@ from typing import List
 import time
 from importlib import import_module
 
-wait_n = __import__('1-concurrent_coroutines').wait_n
-# importing wait_n from 1-concurrent_coroutines.py
+module_name = '1-concurrent_coroutines'
+module = import_module(module_name)
+wait_n = module.wait_n
 
 
 def measure_time(n: int, max_delay: int) -> float:
