@@ -1,6 +1,6 @@
 class Building {
   constructor(sqft) {
-		if (
+    if (
 			this.constructor !== Building
 			&& typeof this.evacuationWarningMessage !== 'function'
 			) {
