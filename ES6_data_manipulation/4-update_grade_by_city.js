@@ -9,7 +9,7 @@ function updateStudentGradeByCity(students, city, newStudents) {
 
   const studGraded = studentsByCity.map((student) => {
     const studentGrade = newStudents.filter(
-      (newStudent) => newStudent.studentId === student.id
+      (newStudent) => newStudent.studentId === student.id,
     );
 
     let grade;
@@ -26,7 +26,7 @@ function updateStudentGradeByCity(students, city, newStudents) {
     };
   });
 
-return studGraded;
+  return studGraded;
 }
 
 export default updateStudentGradeByCity;
