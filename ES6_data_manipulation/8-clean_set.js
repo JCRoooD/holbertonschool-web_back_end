@@ -14,7 +14,7 @@ function cleanSet(set, startString) {
       string.push(item.slice(startString.length));
     }
   }
-  return string.join('_');
+  return string.join('-');
 }
 
 export default cleanSet;
